@@ -25,18 +25,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <link rel="icon" href="/icons/lol.png" sizes="any" />
-      <Providers>
-        <ThemeProvider attribute="class" defaultTheme="dark">
-          <body className={`${pretendard.variable} antialiased`}>
+      <head>
+        {/* 페이지 아이콘 */}
+        <link rel="icon" href="/icons/lol.png" sizes="any" />
+      </head>
+      <body className={`${pretendard.variable} antialiased`}>
+        <Providers>
+          <ThemeProvider attribute="class" defaultTheme="dark">
             <div className="wrap">
               <Header />
               <main className="pt-12">{children}</main>
             </div>
             <ScrollTop />
-          </body>
-        </ThemeProvider>
-      </Providers>
+          </ThemeProvider>
+        </Providers>
+      </body>
     </html>
   );
 }
