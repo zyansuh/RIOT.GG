@@ -1,12 +1,12 @@
 "use client";
 
 import Head from "next/head";
-import Loading from "@/app/loading";
+import Loading from "@/app/api/loading";
 import { Champion } from "@/types/Champion";
 import { useQuery } from "@tanstack/react-query";
 import { getChampionRotation } from "@/utils/riotApi";
 import { ChampionCard } from "@/components/ChampionCard";
-import Error from "@/app/error";
+import Error from "@/app/api/error";
 ;
 
 type RotationProps = {
