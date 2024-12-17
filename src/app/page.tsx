@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div
       className="h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/background.jpg')" }}
+      style={{ backgroundImage: "url('/images/lol1.jpg')" }}
     >
       <div className="text-center">
         <h1 className="text-5xl font-bold text-gray-800">LEAGUE OF LEGENDS</h1>
