@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Header from "@/components/layout/Header";
 import "@/styles/globals.css";
-import Providers from "@/providers/Provider";
+import Providers from "@/app/providers/Provider";
 import ScrollTop from "@/components/layout/Scroll";
 import { ThemeProvider } from "next-themes";
 
