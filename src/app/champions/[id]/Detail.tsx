@@ -112,7 +112,7 @@ export default function Detail({ champion, version }: DetailProps) {
 
           {/* 챔피언 스킨 */}
           <h2 className="font-bold">스킨</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
             {champion.skins.map((skin: ChampionSkin) => (
               <div key={skin.id}>
                 <Image

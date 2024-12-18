@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="ko">
       <head>
         {/* 페이지 아이콘 */}
-        <link rel="icon" href="/icons/lol.png" sizes="any" />
+        <link rel="icon" href="/icons/lol2.png" sizes="any" />
       </head>
       <body className={`${pretendard.variable} antialiased`}>
         <Providers>
