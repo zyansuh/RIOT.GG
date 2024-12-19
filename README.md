@@ -56,6 +56,10 @@ https://my-riot-app-ziansuhs-projects.vercel.app/
 - **Riot Games API**: 최신 게임 데이터를 동적으로 가져오기.
 - **next-themes**: 다크 모드 지원.
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white)
+
 ## 주요 기능
 - **챔피언 목록**: Riot API를 통해 최신 챔피언 정보를 가져와 화면에 렌더링.
 - **아이템 목록**: 게임 아이템 데이터를 동적으로 표시.
