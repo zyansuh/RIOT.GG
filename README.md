@@ -60,10 +60,6 @@ yarn dev
 
 #### **4. 폴더 구조**
 
-```markdown
-## 폴더 구조
-
-```
 ```
 src/
 ├── components/                # UI 컴포넌트 폴더
