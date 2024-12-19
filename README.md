@@ -48,7 +48,7 @@ https://my-riot-app-ziansuhs-projects.vercel.app/
 
 #### **3. 기술 스택 및 주요 기능**
 
-```markdown
+
 ## 기술 스택
 - **Next.js 13**: 최신 React 기능을 활용한 SSR/ISR.
 - **TypeScript**: 정적 타입 체크로 안정성 보장.
@@ -60,12 +60,13 @@ https://my-riot-app-ziansuhs-projects.vercel.app/
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white)
 
+
 ## 주요 기능
 - **챔피언 목록**: Riot API를 통해 최신 챔피언 정보를 가져와 화면에 렌더링.
 - **아이템 목록**: 게임 아이템 데이터를 동적으로 표시.
 - **로테이션 챔피언**: 매주 변경되는 로테이션 챔피언 정보 제공.
 - **다크 모드**: 사용자 환경에 맞춘 테마 전환 기능.
-```
+
 
 ---
 
