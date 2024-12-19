@@ -64,6 +64,7 @@ yarn dev
 ## 폴더 구조
 
 ```
+```
 src/
 ├── components/                # UI 컴포넌트 폴더
 │   ├── ChampionCard.tsx       # 챔피언 카드 UI 컴포넌트
