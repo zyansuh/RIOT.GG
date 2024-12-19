@@ -39,7 +39,7 @@ yarn dev
 
 ### 5. Vercel 배포사이트
 ```
-https://my-riot-bp6aqx1d3-ziansuhs-projects.vercel.app/
+https://my-riot-app-ziansuhs-projects.vercel.app/
 ```
 
 ```
