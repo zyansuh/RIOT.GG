@@ -35,6 +35,13 @@ yarn dev
 
 ### 4. 애플리케이션 접속
 브라우저에서 `http://localhost:3000`으로 접속하세요.
+
+
+### 5. Vercel 배포사이트
+```
+https://my-riot-bp6aqx1d3-ziansuhs-projects.vercel.app/
+```
+
 ```
 
 ---
