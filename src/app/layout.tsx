@@ -45,7 +45,7 @@ export default function RootLayout({
       <body className={`${pretendard.variable} antialiased`}>
         {/* React Query 및 테마 설정 */}
         <Providers>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        
             <div className="wrap">
               {/* 공통 헤더 */}
               <Header />
@@ -54,7 +54,7 @@ export default function RootLayout({
             </div>
             {/* 스크롤 복구 버튼 */}
             <ScrollTop />
-          </ThemeProvider>
+          
         </Providers>
       </body>
     </html>

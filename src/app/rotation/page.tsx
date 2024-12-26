@@ -1,12 +1,12 @@
 "use client";
 
 import Head from "next/head";
-import Loading from "@/app/api/loading";
+import Loading from "@/app/loading";
 import { Champion } from "@/types/Champion";
 import { useQuery } from "@tanstack/react-query";
 import { getChampionRotation } from "@/utils/riotApi";
 import { ChampionCard } from "@/components/ChampionCard";
-import Error from "@/app/api/error";
+import Error from "@/app/error";
 
 type RotationProps = {
   allPlayers: Champion[];
@@ -70,7 +70,8 @@ export default function RotationPage() {
           <div className="text-3xl txt pb-10">
             <h2 className="text-3xl font-bold">금주 플레이어 로테이션 확인</h2>
             <p className="text-lg">
-              Riot Games API를 활용하여 금주 플레이어 로테이션 정보를 제공합니다.
+              Riot Games API를 활용하여 금주 플레이어 로테이션 정보를
+              제공합니다.
             </p>
           </div>
 
@@ -84,9 +85,12 @@ export default function RotationPage() {
         {/* 신규 플레이어 로테이션 섹션 */}
         <div className="mt-10">
           <div className="txt pb-10">
-            <h2 className="text-3xl font-bold">금주 신규 플레이어 로테이션 확인</h2>
+            <h2 className="text-3xl font-bold">
+              금주 신규 플레이어 로테이션 확인
+            </h2>
             <p className="text-lg">
-              Riot Games API를 활용하여 금주 신규 플레이어 로테이션 정보를 제공합니다.
+              Riot Games API를 활용하여 금주 신규 플레이어 로테이션 정보를
+              제공합니다.
             </p>
           </div>
 

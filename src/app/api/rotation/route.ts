@@ -9,7 +9,7 @@ import { ROTATION_API_URL } from "@/constants/constants";
  */
 export async function GET() {
   // 환경 변수에서 API 키를 가져옵니다.
-  const API_KEY = process.env.NEXT_PUBLIC_RIOT_API_KEY as string;
+  const API_KEY = process.env.RIOT_API_KEY as string;
 
   // API 키가 없는 경우 에러 응답 반환
   if (!API_KEY) {

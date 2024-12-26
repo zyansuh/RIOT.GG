@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { Suspense } from "react";
-import Loading from "@/app/api/loading";
+import Loading from "@/app/loading";
 import { ChampionDetail } from "@/types/Champion";
 import { fetchChampionDetail, fetchVersion } from "@/utils/serverApi";
 import Detail from "./Detail";

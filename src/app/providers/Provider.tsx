@@ -1,6 +1,7 @@
 "use client";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ThemeProvider } from "next-themes";
 import React, { useState } from "react";
 
 /**
@@ -26,6 +27,10 @@ export default function Providers({ children }: { children: React.ReactNode }) {
 
   return (
     // QueryClientProvider로 하위 컴포넌트를 감싸 React Query의 기능을 제공합니다.
-    <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+      {children}
+      </ThemeProvider>
+      </QueryClientProvider>
   );
 }
