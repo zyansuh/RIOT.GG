@@ -31,3 +31,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.bg-gold {
+  background-color: #c8aa6e;
+}
+.text-gold {
+  color: #c8aa6e;
+}
+.hover\:bg-gold-dark:hover {
+  background-color: #b5995e; /* Hover 시 조금 더 어두운 색 */
+}
+.text-shadow-gold {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), /* 어두운 그림자 */
+               -1px -1px 1px rgba(255, 255, 255, 0.7); /* 밝은 하이라이트 */
+}

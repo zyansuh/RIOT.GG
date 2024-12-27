@@ -1,8 +1,8 @@
 import type { Config } from "tailwindcss";
-// import DarkMode from './src/components/layout/DarkMode';
+import DarkMode from './src/components/layout/DarkMode';
 
 const config: Config = {
-  darkMode: "class",
+  darkMode: "class", // 다크 모드 설정
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -19,4 +19,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;

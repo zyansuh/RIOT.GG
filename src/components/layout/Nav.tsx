@@ -11,9 +11,15 @@ export default function Nav() {
   return (
     <nav className="pr-2">
       <ul className="flex gap-24">
+      <li className="font-bold">
+          <Link href={"/gameinfo"}>게임정보</Link>
+        </li>
         {/* 챔피언 페이지 링크 */}
         <li className="font-bold">
           <Link href={"/champions"}>챔피언</Link>
+        </li>
+        <li className="font-bold">
+          <Link href={"/worldview"}>세계관</Link>
         </li>
         {/* 아이템 페이지 링크 */}
         <li className="font-bold">
@@ -23,9 +29,12 @@ export default function Nav() {
         <li className="font-bold">
           <Link href={"/rotation"}>로테이션</Link>
         </li>
+        <li className="font-bold">
+          <Link href={"/lolchess"}>롤토체스</Link>
+        </li>
         {/* 다크 모드 전환 버튼 */}
         <li>
-          <DarkMode />
+          {/* <DarkMode /> */}
         </li>
       </ul>
     </nav>

@@ -4,7 +4,6 @@ import Header from "@/components/layout/Header";
 import "@/styles/globals.css";
 import Providers from "@/app/providers/Provider";
 import ScrollTop from "@/components/layout/Scroll";
-import { ThemeProvider } from "next-themes";
 
 // Pretendard 폰트 설정
 const pretendard = localFont({
@@ -33,9 +32,9 @@ export const metadata: Metadata = {
  */
 export default function RootLayout({
   children,
-}: Readonly<{
+}:{
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="ko">
       <head>
@@ -45,16 +44,12 @@ export default function RootLayout({
       <body className={`${pretendard.variable} antialiased`}>
         {/* React Query 및 테마 설정 */}
         <Providers>
-        
-            <div className="wrap">
-              {/* 공통 헤더 */}
-              <Header />
-              {/* 페이지 콘텐츠 */}
-              <main className="pt-12">{children}</main>
-            </div>
-            {/* 스크롤 복구 버튼 */}
-            <ScrollTop />
-          
+          {/* 공통 헤더 */}
+          <Header />
+          {/* 페이지 콘텐츠 */}
+          <main className="pt-12">{children}</main>
+          {/* 스크롤 복구 버튼 */}
+          <ScrollTop />
         </Providers>
       </body>
     </html>
