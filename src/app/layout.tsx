@@ -7,7 +7,7 @@ import ScrollTop from "@/components/layout/Scroll";
 
 // Pretendard 폰트 설정
 const pretendard = localFont({
-  src: "../../public/fonts/PretendardVariable.woff2",
+  src: "fonts/PretendardVariable.woff2",
   display: "swap",
   weight: "100 900",
   variable: "--font-pretendard",
