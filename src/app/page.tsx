@@ -16,18 +16,33 @@ export default function Home() {
         </div>
 
         {/* 무료로 플레이하기 버튼 */}
-        <button className="mt-6 mb-10 w-60 px-6 py-3 bg-gold text-gray-800 font-bold border-[1px] border-white outline outline-[1px] outline-white outline-offset-4 hover:bg-gold-dark transition duration-300">
+        <a 
+          href="https://www.leagueoflegends.com/ko-kr/download/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 mb-10 w-60 px-6 py-3 bg-gold text-gray-800 font-bold border-[1px] border-white outline outline-[1px] outline-white outline-offset-4 hover:bg-gold-dark transition duration-300 text-center"
+        >
           무료로 플레이하기
-        </button>
+        </a>
 
         {/* 나란히 배치된 버튼들 */}
         <div className="flex gap-10 mt-10">
-          <button className="w-60 px-6 py-3 bg-gold text-gray-800 font-bold border-[1px] border-white outline outline-[1px] outline-white outline-offset-4 hover:bg-gold-dark transition duration-300">
+          <a 
+            href="https://www.leagueoflegends.com/ko-kr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-60 px-6 py-3 bg-gold text-gray-800 font-bold border-[1px] border-white outline outline-[1px] outline-white outline-offset-4 hover:bg-gold-dark transition duration-300 text-center"
+          >
             League Of Legends
-          </button>
-          <button className="w-60 px-6 py-3 bg-gold text-gray-800 font-bold border-[1px] border-white outline outline-[1px] outline-white outline-offset-4 hover:bg-gold-dark transition duration-300">
+          </a>
+          <a 
+            href="https://lolchess.gg/?hl=ko"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-60 px-6 py-3 bg-gold text-gray-800 font-bold border-[1px] border-white outline outline-[1px] outline-white outline-offset-4 hover:bg-gold-dark transition duration-300 text-center"
+          >
             LoLCHESS
-          </button>
+          </a>
         </div>
       </div>
     </div>

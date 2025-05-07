@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Noto_Sans_KR } from "next/font/google";
 import Header from "@/components/layout/Header";
 import "@/styles/globals.css";
 import Providers from "@/app/providers/Provider";
 import ScrollTop from "@/components/layout/Scroll";
 
-// Pretendard 폰트 설정
-const pretendard = localFont({
-  src: "fonts/PretendardVariable.woff2",
+// Noto Sans KR 폰트 설정
+const notoSansKR = Noto_Sans_KR({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
   display: "swap",
-  weight: "100 900",
-  variable: "--font-pretendard",
+  variable: "--font-noto-sans-kr",
 });
 
 /**
@@ -41,7 +41,7 @@ export default function RootLayout({
         {/* 페이지 아이콘 */}
         <link rel="icon" href="/icons/lol2.png" sizes="any" />
       </head>
-      <body className={`${pretendard.variable} antialiased`}>
+      <body className={`${notoSansKR.variable} antialiased`}>
         {/* React Query 및 테마 설정 */}
         <Providers>
           {/* 공통 헤더 */}
